@@ -72,6 +72,6 @@ git merge branch_name
 # Push the updated main branch to the remote repository
 git push origin main
 ```
-
+Replace branch_name with the name of your branch and "Commit message for your changes" with a descriptive message about what changes you have made.
 
 
