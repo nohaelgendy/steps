@@ -38,6 +38,25 @@ Forces deletion of the specified branch, even if changes are not merged.
 git branch -D branch-name
 ```
 
+### Add Changes to a Branch
+```sh
+# Check the current branch (optional)
+git branch
+
+# Switch to the desired branch
+git checkout branch_name
+
+# Stage your changes
+git add .
+
+# Commit your changes
+git commit -m "Your commit message"
+
+# Push the changes to the remote repository
+git push origin branch_name
+```
+Replace branch_name with the name of your branch and "Your commit message" with a descriptive message about what changes you have made.
+
 ### Merge a Branch into Main
 Merges changes from branch-name into the main branch.
 ```sh
