@@ -60,8 +60,17 @@ Replace branch_name with the name of your branch and "Your commit message" with 
 ### Merge a Branch into Main
 Merges changes from branch-name into the main branch.
 ```sh
+# Switch to the main branch
 git checkout main
-git merge branch-name
+
+# Pull the latest changes on the main branch
+git pull origin main
+
+# Merge the changes from your branch into the main branch
+git merge branch_name
+
+# Push the updated main branch to the remote repository
+git push origin main
 ```
 
 
